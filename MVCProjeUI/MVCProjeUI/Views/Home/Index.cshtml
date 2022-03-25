@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<table class="table table-hover">
+    <tr>
+        <td>Kategori ID</td>
+        <td>Kategori Adı</td>
+        <td>Kategori Açıklaması</td>
+        <td>Kategori Statüsü</td>
+        <td>Güncelle Bölümü</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Yazılım</td>
+        <td>C#</td>
+        <td>True</td>
+        <td>
+            <button class="btn btn-success">
+                Güncelle
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Spor</td>
+        <td>Fenerbahçe</td>
+        <td>True</td>
+        <td>
+            <button class="btn btn-success" ">
+                Güncelle
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Müzik</td>
+        <td>Cem Karaca</td>
+        <td>True</td>
+        <td>
+            <button class="btn btn-success" ">
+                Güncelle
+            </button>
+        </td>
+    </tr>
+
+
+</table>
+<br />
+@*<button class="btn btn-danger">
+        Kategori Listesi
+    </button>
+    <button class="btn btn-warning">
+        Kategori Ekle
+    </button>*@
+<a href="/Category/AddCategory" class="btn btn-info"> Kategori Ekle </a>
+<a href="/Category/GetCategoryList" class="btn btn-info"> Kategori Listesi </a>
+<a href="/Writer/AddWriter" class="btn btn-info"> Yazar Ekle </a>
+<a href="/Writer/GetWriterList" class="btn btn-info"> Yazar Listesi </a>
+
+
+<button class="btn btn-info">
+    Kategori Sil
+</button>
